@@ -1,0 +1,74 @@
+
+/* Freight services css start*/
+
+.freight_type h3{
+    color: #1B6DC1; 
+    font-weight: 600;
+}
+
+.freight_type h6{
+    font-size: 30px;
+}
+
+.freight_type p{
+    font-size: 20px;
+}
+/* icon/truck_icon\ -light.svg */
+.freight_type1{
+    /* background: rgb(241,241,247); */
+    background: url(../icon/truck_icon\ -light.svg); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:30% ;
+
+}
+
+.freight_type2{
+    background: url(../icon/ship-light.svg.svg); 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 28%;
+    
+
+}
+.freight_type h3:hover
+{
+    transform:scale(1.1);   
+    transition: all 2s;
+}
+.freight_type3{
+    background: url(../icon/airoplane-light.svg); 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 28%;
+}
+/* Freight services css end*/
+
+
+/* Warehouse container css start*/
+
+
+.warehouses h3{
+    color: #1B6DC1; 
+    font-weight: 600;
+}
+
+.warehouses p{
+    font-size: 20px;
+}
+
+.warehouses ul li span{
+    font-size: 17.5px;
+}
+.warehouses ul li {
+    font-size: 18px;
+}
+
+.warehouses h3:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+}
+/* Warehouse css start*/
+
+
+

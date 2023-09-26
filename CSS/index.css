@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar css start*/
+
+.navbar-brand img{
+    width: 230px;
+    height: 70px; 
+    padding: 10px;
+}
+.nav-link{
+    color: white;
+}
+
+
+.nav-item a:hover{
+    color: #ffdf00;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .navbar-brand img{
+        width: 200px;
+        transition: all 0.5s;
+    }
+} 
+
+@media screen and (max-width: 700px){
+    .navbar-brand img{
+        width: 160px;
+        height: 60px;
+        transition: all 0.5s;
+        
+    }
+}
+
+@media screen and (max-width: 616px){
+    .navbar-brand img{
+        width: 130px;
+        padding: 10px;
+        transition: all 0.5s;
+    }
+}
+@media screen and (max-width: 575px){
+    .navbar-brand img{
+        width: 180px;
+        transition: all 0.5s;        
+
+    }
+}
+
+/* navbar css end*/
+
+
+
+
+/* Search bar & main bg image css start */
+.main_bgimg{
+background-image: url(../Images/background_img.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 800px;
+display: block;
+}
+
+.searchbar{
+    width: 50%;
+    padding: 10px; 
+    /* box-shadow:10px 0px 5px #f5c350;  */
+    border:2px solid #f5c350;
+}
+/* Search bar & main bg image css end */
+
+@media screen and (max-width: 576px){
+    .main_bgimg{
+        background-image: none;
+    }
+    .col-4{
+        width:100%;
+    }
+} 
+
+@media screen and (max-width: 768px){
+    .searchbar{
+        width: 80%;
+    }
+} 
+
+/* About css start */
+
+.co_details h2{
+    color: #ffdf00; 
+    font-weight: 700;
+}
+
+.co_details:hover h2{
+    color: #1b6dc1;
+    transform:scale(1.1);
+    transition:all 0.5s ;
+}
+
+.co_details:hover{
+    color: #ffdf00;
+    transform:scale(1.1);
+    transition:all 0.5s ;}
+
+/* About css start */
+
+
+
+
+
+/* Services css start*/
+.services h4{
+    font-weight: 800;
+}
+
+.services_type:hover{
+    background: #f5c350;
+    border-radius: 20px;
+    transform: scale(1.1);
+    color: white;
+    transition:all 0.5s;
+/* padding-bottom: 30px; */
+}
+
+/* Services css end*/
+
+
+
+/* E-booking css start */
+.e-booking form input{
+    box-shadow: 1px 1px 5px #f5c350, -1px -1px 5px #f5c350;
+}
+
+.e-booking form select{
+    box-shadow: 1px 1px 5px #f5c350, -1px -1px 5px #f5c350;
+}
+
+.e-booking{
+    background-color: #cdedfd;
+background-image: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);
+
+}
+
+.booking_form{
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px #1b6dc1, -1px -1px 20px #1b6dc1;
+}
+
+.e-booking_submitbtn{
+    background-color: #7fcec5;
+    background-image: linear-gradient(315deg, #7fcec5 0%, #14557b 74%);
+    border-radius: 10px;
+}
+
+/* E-booking css end */
+
+
+
+
+
+/* footer css start */
+.footer1{
+    border: 1px solid #14557b;
+    background-color: #14557b;
+    color: white;
+    
+}
+
+.social_icon i{
+font-size: 35px;
+margin: 10px;
+}
+
+.social_icon i:hover{
+    color: #f5c350; 
+}
+
+.footer1 a{
+    text-decoration: none;
+    color: white;
+}
+.footer1 a:hover{
+    color: #f5c350;
+}
+
+.footer2{
+    color: white;
+}
+
+.footer2 p:hover{
+    color: #f5c350;
+}
+/* footer css end */
